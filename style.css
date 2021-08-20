@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase&family=Seymour+One&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+
+.navbar {
+    /* animation: animation1 20s linear infinite; */
+}
+.offcanvas-body{
+
+    /* animation: animation1 20s linear infinite; */
+}
+
+@keyframes animation1 {
+    0%,100%{
+        background-image: linear-gradient(30deg,tomato,red);
+    }
+    
+    10% ,90%{
+        background-image: linear-gradient(40deg,tomato,red);
+    }
+    
+    20% ,80%{
+        background-image: linear-gradient(50deg,tomato,red);
+    }
+    
+   
+    30% ,70%{
+        background-image: linear-gradient(60deg,tomato,red);
+    }
+    40% ,60%{
+        background-image: linear-gradient(70deg,tomato,red);
+    }
+    50% {
+        background-image: linear-gradient(80deg,tomato,red);
+    }
+    /* 60%{
+        background-image: linear-gradient(150deg,tomato,red);
+    }
+    70%{
+        background-image: linear-gradient(170deg,rgb(220, 155, 250),red);
+    }
+    80%{
+        background-image: linear-gradient(190deg,rgb(220, 155, 250),red);
+    }
+    90%{
+        background-image: linear-gradient(210deg,rgb(220, 155, 250),red);
+    } */
+}
+
+.section{
+    position: relative;
+    width: 100%;
+    height: 10%;
+    background-image: url('images/blob\ \(1\).svg');
+    /* background-size: cover; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* clip-path: circle(190vh at 50% -100vh); */
+    /* clip-path: polygon(0 0, 100% 0%, 100% 65%, 0% 100%); */
+}
+
+
+.svg{
+    /* background-color: rgb(255, 0, 0); */
+    /* background-image: url(images/bg2.jpg); */
+   position: relative;
+
+}
+
+
+@media (max-width:767px) {
+    .imagelogo{
+        text-align: center;
+    }
+    .rightslide{
+        text-align: center;
+
+    }
+}
+
+
+
+.text-secondary:hover{
+color: white;
+}
+
+.card-img-overlays{
+    /* display: flex;  */
+     justify-content: center;
+    align-items: center;
+    color: transparent;
+    font-weight: 900;
+    -webkit-text-stroke: 0.2vh rgb(255, 255, 255);
+    font-size: 45px;
+
+} 
+.card:hover .card-title{
+    
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+.card-title{
+    font-size: 30px;
+    /* color:rgb(98, 216, 255); */
+    color: black;
+    text-shadow: 10px 10px 10px gray;
+    font-weight: 600;
+    text-decoration: none;
+   
+}
+.col-md-3{
+    padding: 10px 0px 10px 0px;
+}
+.card-bodyes{
+    font-family: 'Cormorant Unicase', serif;
+    word-spacing: 5px;
+    font-weight: 600;
+    text-decoration:underline;
+    font-size: 18px;
+    letter-spacing: 2px ;
+    display: block;
+    position: relative;
+    border-bottom: 0px;
+    background-image: url('images/blob\ \(1\).svg');
+    background-size: cover;
+    background-position: center;
+   
+    background-repeat: no-repeat;
+}
+
+.card{
+
+    border: 5px solid black;
+}
+@media (max-width:775px) {
+    .section{
+        background-image: url('images/blob\ \(2\).svg');
+        background-size:contain;
+        background-position: center;
+        /* background-image: none; */
+       
+    }
+}
+@media (min-width:774px) {
+    .section{
+    
+       
+        background-image: none;
+       
+    }
+}
+.section_1{
+    position: relative;
+    width: 100%;
+    height: 10%;
+    background-image: url('images/blob\ \(1\).svg');
+    background-size: contain;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+}
+@media (max-width:776px) {
+    .section_1{
+        background-image: none;
+    }  
+}
+.right{
+    border-left: 2px solid cyan;
+/* padding-bottom:5px ; */
+color: white;
+}
+.right:hover{
+    padding-left: 30px;
+    transition-duration: 0.5s;
+}
+.scale{
+    font-size: 30px;
+    
+}
+.scale:hover{
+transform: scale(1.2);
+transition-duration: 0.4s;
+text-decoration: none;
+}
+
+
+@media (min-width:771px) {
+    .rightslide{
+        text-align: right;
+    }
+}

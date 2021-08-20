@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    
+    <!-- important link for iconsss -->
+    <script src="https://use.fontawesome.com/43c6e6ceaa.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <!--fontawesome 5.0 script-->
+    <script src="https://kit.fontawesome.com/c2d50e9928.js" crossorigin="anonymous"></script>
+    <!--fontawesome 5.0 script-->
+
+
+    <!--font family
+  font-family: 'Iceland', cursive;">
+  
+  3rd party link-->
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase&family=Seymour+One&family=Tenali+Ramakrishna&display=swap"
+        rel="stylesheet">
+        <style>
+            .side {
+                background-image: url('images/wave (1).svg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: right;
+              
+            }
+            @media (max-width:776px) {
+                .side {
+              
+                    background-image: url('images/blobblueblob.svg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: right;
+            }
+            }
+            
+            
+            @media (max-widht:353px) {
+                .side{
+               background-image: none;
+                }
+                .show{
+                    color: #ffc107;
+                }
+               
+            }
+         
+            
+            @media (max-width:768px) {
+                .hide{
+                    display: none;
+                }
+                
+                .wave{
+                   
+                background-image: url('images/blobblueblob.svg');
+                background-position: left;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+            } 
+           }
+           
+
+           .colo{
+               color: #ffc107;;
+           }
+            @media (min-width:1200px){
+                .colo{
+                    color: white;
+            } 
+            
+
+            }
+            
+
+            @media (min-width:768px) {
+                .show{
+                    display: none;
+                }
+                .hide{
+                    color: white;
+                }
+
+                
+                .wave{
+                background-image: url('images/blob2.svg');
+                background-position: right;
+                background-repeat: no-repeat;
+                background-size: contain;
+
+            }
+
+                
+            }
+           
+          
+.show{
+    color: #ffc107;
+}
+
+.wavebottom{
+    background-image: url('images/wave11.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+        </style>
+    <link rel="stylesheet" href="bootstrap.css">
+
+</head>
+<body>
+    
+
+    <!-- navbar start here -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning  sticky-top text-white " style="color: antiquewhite;">
+        <div class="container-fluid">
+
+            <!-- <a class="navbar-brand" href="index.html">
+            <img src="images/logo copy.png" alt="" width="60px">
+    
+          </a> -->
+
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-label="Toggle navigation" tabindex="-1">
+                <span class="navbar-toggler-icon"></span>
+                <!-- <span class="btn-close text-reset"></span> -->
+            </button>
+
+            <!-- <button type="button" class="btn-close text-reset"  aria-label="Close" data-bs-dismiss="collapse"></button> -->
+
+            <div class="collapse navbar-collapse " id="navbarScroll">
+
+                <ul class="navbar-nav me-auto my-2 my-lg-0 list-group-flush text-white">
+
+                    <li class="nav-item  list-group-item bg-transparent  ">
+
+
+                        <a class="nav-link  text-secondary   text-center" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item  list-group-item bg-transparent">
+                        <a class="nav-link  text-white  text-center border-bottom border-secondary" href="about.html">About Us</a>
+                    </li>
+                    <!-- <li class="nav-item  list-group-item bg-transparent  dropdown ">
+                <a class="nav-link  text-secondary dropdown-toggle hov" href="#" id="navbarScrollingDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Connect Us
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item " href="#">Action</a></li>
+                  <li><a class="dropdown-item " href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item " href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+                    <li class="nav-item  list-group-item bg-transparent ">
+                        <a class="nav-link text-center"
+                            href="contect.html">Contact Us</a>
+                    </li>
+                    <li class="list-group-item bg-transparent"></li>
+                </ul>
+                <span
+                    class="navbar-text list-group-item  bg-transparent   nav-item text-center d-inline-flex border-0 p-1">
+                    <a href="" class="p-3 text-decoration-none nav-link">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="" class="p-3 text-decoration-none nav-link">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="" class="p-3 text-decoration-none nav-link">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <a href="" class="p-3 text-decoration-none nav-link">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Navbar end  here -->
+
+
+
+    <div class="container-fluid pt-5 pb-5 side m-0">
+        <div class="row align-items-center">
+            <div class="col-md-2  text-center colo" style="font-family: 'Style Script', cursive; font-size: 30px; text-shadow: 10px 10px 30px gray;">
+               About Our Componey
+            </div>
+            <div class="col-md-10 text-dark">
+                <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+<span class="lead">O</span>ur higher management has over 6 years of proven experience in various Oil and Gas projects. <br>
+                Our extensive experience in each and every realm is driven by the breadth and depth of our 
+                
+                qualified teams, all who take pride in doing the best possible job for our clients. <br>
+                Effective planning and quality construction were all combined with MG’s team-oriented 
+                
+                Construction Management, resulting in the fast-developing company in the sector.
+                MG is focused on providing high value-added services to meet the mechanical, and civil needs 
+                
+                of the process construction industries which makes MG as a “One Stop Shop” solution for 
+                
+                reputable clients across the globe in the field of pipeline and piping construction works.
+            </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container wave shadow pt-5 pb-5">
+        <div class="row align-items-center">
+            <div class="col-md-10 text-center">
+                <span class="show " style="font-family: 'Style Script', cursive; font-size: 30px; text-shadow: 10px 10px 30px gray;"> Our Mission</span>
+                <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+
+                
+           <span class="lead">Desires to obtain</span>    <br>
+           <span class="lead">T</span>o satisfy our customers through conformity by utilizing proven process techniques that allow 
+                
+                for the efficient execution of projects meeting the time, cost and quality requirements of our 
+                
+                Clients with a commitment to continual improvement in Services.
+                This commitment for customer satisfaction shall be exercised through the control of all 
+                
+                activities, allowing for the optimal use of resources and minimizing the possibility of non-
+                
+                conformity which will be achieved through our highly experienced and qualified management 
+                
+                and technical teams.
+            </p>
+            </div>
+            <div class="col-md-2 hide text-left"  style="font-family: 'Style Script', cursive; font-size: 30px; text-shadow: 10px 10px 30px gray;">
+                Our Mission
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pt-5 pb-5  wavebottom">
+        <div class="row align-items-center">
+            <div class="col-md-4 text-center text-warning"  style="font-family: 'Style Script', cursive; font-size: 30px; text-shadow: 10px 10px 30px gray;">
+                Our Vision
+            </div>
+            <div class="col-md-8">
+                <p  style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                Resultant pleasure <br>
+                We envision ourselves to be the most trusted Oil & Gas company contributing to Nation’s 
+                
+                growth. <br> 
+                Our Value <br>
+                Except to obtain <br>
+                • Ethics and Integrity <br>
+                • Innovation & Excellence <br>
+                • Speed & Passion <br>
+                • Reliability & Accountability <br>
+            </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- --------------------------footer start from here ------------->
+    <div class="container-fluid bg-warning p-4" style="font-family:'Tenali Ramakrishna', sans-serif; font-size: large;">
+        <div class="row">
+          <div class="col-md-4">
+            <ul class="list-group-flush p-2 bg-warning ">
+              <li class="list-group-item bg-warning right border-left">
+              <a href="index.html"class=" text-white text-decoration-none">
+              <i class="fa fa-store"></i>   Home
+              </a> 
+              </li>
+              <li class="list-group-item bg-warning right border-left">
+              <a href="about.html"class=" text-white text-decoration-none">
+    
+             <i class="fa fa-users"></i>   About Us
+                </a>
+              </li>
+              <li class="list-group-item bg-warning right border-left">
+              <a href="contect.html"class=" text-white text-decoration-none">
+    
+              <i class="fa fa-link"></i>  Contact Us
+                </a>
+              </li>
+    <li class="list-group-item bg-warning"></li>
+    
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-group-flush p-2">
+    <li class="list-group-item bg-warning right border-left">
+      <a href="mailto:kumarmithi182@gmail.com" class="text-white">
+        <i class="fa fa-envelope"> </i>
+    
+        EMail:  kumarmithi182@gmail.com
+      </a>
+    </li>
+    <li class="list-group-item bg-warning right border-left">
+      <a href="tel:+91 9507299687" class="text-white">
+        <i class="fa fa-phone-alt"></i>
+        Phone:  +919507299687
+      </a>
+    </li>
+    <li class="list-group-item bg-warning"></li>
+    
+            </ul>
+            
+            
+           
+    
+          </div>
+          <div class="col-md-4 text-center">
+            <ul class="list-group-flush p-2">
+    <li class="list-group-item bg-warning  border-left">
+      <a href="" class="text-white lead text-decoration-none">
+        <i class="fa fa-facebook scale lead p-3"></i>
+    
+      </a>
+      <a href="" class="text-white  lead text-decoration-none">
+        <i class="fa fa-twitter scale p-3"></i>
+    
+      </a>
+      <a href="" class="text-white lead text-decoration-none">
+        <i class="fa fa-instagram scale p-3" ></i>
+    
+      </a>
+      <a href="" class="text-white  lead text-decoration-none">
+        <i class="fa fa-linkedin scale p-3"></i>
+    
+      </a>
+    </li>
+    <li class="list-group-item bg-warning"></li>
+            </ul>
+    
+    
+          </div>
+        </div>
+      </div>
+    
+    
+      <!----------------------------- footer end from here --------------->
+</body>
+</html>
